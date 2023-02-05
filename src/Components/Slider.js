@@ -2,11 +2,11 @@ import SimpleImageSlider from "react-simple-image-slider";
 
 
 const images = [
-    { url: "/images/1.jpg" },
-    { url: "/images/2.jpg" },
-    { url: "/images/3.jpg" },
-    { url: "/images/4.jpg" },
-    { url: "/images/6.jpg" },
+    { url: "https://raw.githubusercontent.com/keshavop/Capstone-Project/master/public/images/1.jpg" },
+    { url: "https://github.com/keshavop/Capstone-Project/blob/master/public/images/2.jpg?raw=true" },
+    { url: "https://raw.githubusercontent.com/keshavop/Capstone-Project/master/public/images/3.jpg" },
+    { url: "https://raw.githubusercontent.com/keshavop/Capstone-Project/master/public/images/4.jpg" },
+    { url: "https://raw.githubusercontent.com/keshavop/Capstone-Project/master/public/images/6.jpg" },
 ];
 
 const Slider = () => {
