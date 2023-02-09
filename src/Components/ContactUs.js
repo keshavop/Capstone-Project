@@ -3,7 +3,7 @@ import React from 'react'
 function ContactUs() {
     return (
         <div>
-            <section className="position-relative py-5">
+            <section className="position-relative py-5" id='contactus'>
                 <div className="d-md-none"><iframe allowfullscreen="" frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="100%"></iframe></div>
             </section>
             <section className="position-relative py-4 py-xl-5">
@@ -11,7 +11,7 @@ function ContactUs() {
                     <div className="row mb-5">
                         <div className="col-md-8 col-xl-6 text-center mx-auto">
                             <h2>Contact us</h2>
-                            <p className="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
+                            <p className="w-lg-50">Get in touch with us for any inquiries or support needs. We're here to help you 24/7. Contact us via email, phone or online chat for a prompt response.</p>
                         </div>
                     </div>
                     <div className="row d-flex justify-content-center">
@@ -23,7 +23,7 @@ function ContactUs() {
                                     </svg></div>
                                     <div className="px-2">
                                         <h6 className="mb-0">Phone</h6>
-                                        <p className="mb-0">+123456789</p>
+                                        <p className="mb-0">+91 8996365689</p>
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-center p-3">
@@ -32,7 +32,7 @@ function ContactUs() {
                                     </svg></div>
                                     <div className="px-2">
                                         <h6 className="mb-0">Email</h6>
-                                        <p className="mb-0">info@example.com</p>
+                                        <p className="mb-0">artstore@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-center p-3">
@@ -41,14 +41,14 @@ function ContactUs() {
                                     </svg></div>
                                     <div className="px-2">
                                         <h6 className="mb-0">Location</h6>
-                                        <p className="mb-0">12 Example Street</p>
+                                        <p className="mb-0">Sector 21, South Delhi</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-5 col-xl-4">
                             <div>
-                                <form className="p-3 p-xl-4" method="post">
+                                <form className="p-3 p-xl-4">
                                     <div className="mb-3"><input className="form-control" type="text" id="name-1" name="name" placeholder="Name" /></div>
                                     <div className="mb-3"><input className="form-control" type="email" id="email-1" name="email" placeholder="Email" /></div>
                                     <div className="mb-3"><textarea className="form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div>
