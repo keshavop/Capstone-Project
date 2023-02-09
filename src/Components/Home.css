@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Poppins:ital,wght@1,300&display=swap');
+
+.bg {
+    background-Image: url("https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 1902px
+}
+
+.heading {
+    /* display: flex; */
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* justify-content: left; */
+    font-size: 102px;
+    margin-left: 100px;
+    margin-top: 50px;
+    opacity: 200;
+    color: whitesmoke;
+
+}
+
+.quote {
+    font-family: 'Poppins',
+        sans-serif;
+    /* justify-content: left; */
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    opacity: 200;
+    color: whitesmoke;
+}
+
+
+.order {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 70px;
+    margin-left: 1000px;
+    margin-top: 550px;
+    opacity: 200;
+    color: whitesmoke;
+
+}
